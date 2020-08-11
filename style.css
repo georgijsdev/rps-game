@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #131A22;
+}
+
+header {
+    background:#37475A;
+    padding: 20px;
+    border-bottom: 4px solid #fff;
+}
+
+header > h1 {
+    color: #fff;
+    text-shadow: 6px 5px 6px #131A22;
+    text-align: center;
+}
+
+
+
+.score-board {
+    margin: 30px auto;
+    padding: 15px 20px;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    width: 200px;
+    color: #fff;
+    font-size: 46px;
+    text-align: center;
+    position: relative;
+}
+
+.badge {
+    background-color: #37475A;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result {
+    margin: 10px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
+
+.result > p > i {
+    color: #FEBD69;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 56px;
+}
+
+.choices #r,
+.choices #s {
+    padding: 10px 20px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.choices #p {
+    padding: 10px 25px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.choices .choice {
+    margin: 20px;
+    cursor: pointer;
+    color: #FEBD69;
+}
+
+.green-glow {
+    box-shadow: 0 0 10px #8DF06F;
+}
+.red-glow {
+    box-shadow: 0 0 10px #FF3B28;
+}
+.grey-glow {
+    box-shadow: 0 0 10px #909090;
+}
+
+
+.action-message {
+    width: 135px;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
